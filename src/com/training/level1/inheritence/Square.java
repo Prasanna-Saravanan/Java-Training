@@ -27,8 +27,7 @@ public class Square extends Shape {
 	 */
 	@Override
 	public double getArea() {
-		area = side * side;
-		return area;
+		return side * side;
 	}
 
 	/**
@@ -36,8 +35,7 @@ public class Square extends Shape {
 	 */
 	@Override
 	public double getPerimeter() {
-		perimeter = 4 * side;
-		return perimeter;
+		return 4 * side;
 	}
 
 	/**

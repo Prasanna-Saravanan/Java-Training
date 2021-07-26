@@ -33,8 +33,7 @@ public class Triangle extends Shape {
 	 */
 	@Override
 	public double getArea() {
-		area = height * base / 2;
-		return area;
+		return height * base / 2;
 	}
 
 	/**
@@ -42,8 +41,7 @@ public class Triangle extends Shape {
 	 */
 	@Override
 	public double getPerimeter() {
-		perimeter = side1 + side2 + base;
-		return perimeter;
+		return side1 + side2 + base ;
 	}
 
 	/**
